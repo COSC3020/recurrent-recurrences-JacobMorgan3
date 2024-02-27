@@ -38,3 +38,5 @@ $$
 $13^i * T(n/13^i) + (($ $\sum_{j=0}^{i-1} 13^j) * n)$ <br/>
 From $13^i = n$ we get $i = log_{13}(n)$ <br/>
 Plugging i back in we get that $T(n) \in \Theta(n^2))$ <br/>
+
+when working it wout i got $T(n) \in \Theta(n + n^2))$ but i thought we drop the lower order terms. Should I have left n + n^2 or is something else wrong?
