@@ -35,6 +35,6 @@ $$ T(n) =
     \end{cases}
 $$
 
-$13^i * T(n/13^i) + (($ $\sum_{j=0}^{i-1} 13^j) * n)$ <br/>
+$13^i * T(n/13^i) + ($ $\sum_{i=0}^{n} 2in)$ <br/>
 From $13^i = n$ we get $i = log_{13}(n)$ <br/>
-Plugging i back in we get that $T(n) \in \Theta(n))$ <br/>
+Plugging i back in we get that $T(n) \in \Theta(nlog(n)))$ <br/>
